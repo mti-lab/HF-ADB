@@ -1,5 +1,16 @@
 # High-Frequency Anti-DreamBooth: Robust Defense against Personalized Image Synthesis
 
+
+## Abstruct
+
+Recently, text-to-image generative models have been misused to create unauthorized malicious images of individuals, posing a growing social problem.
+  Previous solutions, such as Anti-DreamBooth, add adversarial noise to images to protect them from being used as training data for malicious generation.
+  However, we found that the adversarial noise can be removed by adversarial purification methods such as DiffPure.
+  Therefore, we propose a new adversarial attack method that adds strong perturbation on the high-frequency areas of images to make it more robust to adversarial purification.
+  Our experiment showed that the adversarial images retained noise even after adversarial purification, hindering malicious image generation.
+
+![Overview of out work](img/overview.png)
+
 ## Environment
 
 1. Create virtual environment with conda
