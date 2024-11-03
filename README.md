@@ -87,3 +87,9 @@ bash ./job_scripts/hfadb.sh
   booktitle={ECCV 2024 Workshop The Dark Side of Generative AIs and Beyond}
 }
 ```
+
+## Code acknowledgements
+
+The code of our method is based on that of [Anti-DreamBooth](https://github.com/VinAIResearch/Anti-DreamBooth).
+For evaluation, we used [insightface repo](https://github.com/deepinsight/insightface/) and [retinaface repo](https://github.com/serengil/retinaface).
+We would like to express our sincere gratitude to the contributors of the Anti-DreamBooth, insightface, and retinaface repositories.
